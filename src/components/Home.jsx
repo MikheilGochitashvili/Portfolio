@@ -19,11 +19,11 @@ const Home = () => {
           </span>
         </div>
         <div className="home_page_buttons_container">
-          <button onClick={() => navigate("/about")} className="about_button">
+          <button onClick={() => navigate("/portfolio/about")} className="about_button">
             About
           </button>
           <button
-            onClick={() => navigate("/projects")}
+            onClick={() => navigate("/portfolio/projects")}
             className="projects_button"
           >
             Projects<img className="arrow" src={Arrow} alt="img"></img>
