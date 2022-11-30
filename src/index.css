@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@200;400;500;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lexend", sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: #eff5f5;
+}
+
+header {
+  width: 100%;
+  position: fixed;
+}
+
+.nav_logo {
+  width: 220px;
+  cursor: pointer;
+}
+
+.home_page_container {
+  padding-top: 150px;
+  width: 1340px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.home_page_left_container_main_container span {
+  font-size: 28px;
+  color: #497174;
+  font-weight: 500;
+}
+
+.home_page_left_container_main_container {
+  margin-top: 55px;
+  width: 616px;
+}
+
+.home_page_right_container {
+  position: relative;
+  display: flex;
+  pointer-events: none;
+}
+
+.home_page_buttons_container {
+  margin-top: 75.99px;
+}
+
+.home_page_buttons_container button {
+  width: 175px;
+  height: 64.05px;
+  font-size: 25px;
+  border: none;
+  cursor: pointer;
+  transition: 430ms;
+}
+
+.about_button {
+  color: #eff5f5;
+  background: #eb6440;
+}
+
+.about_button:hover {
+  background: #497174;
+}
+
+.about_button:active {
+  background: #eb6440;
+}
+
+.projects_button {
+  color: #497174;
+  background: none;
+}
+
+.projects_button:hover {
+  background: #497174;
+  color: white;
+}
+
+.arrow {
+  margin-left: 6px;
+  margin-bottom: 7px;
+  position: absolute;
+}
+
+.react_logo {
+  width: 170px;
+  position: absolute;
+  margin-left: -50px;
+  pointer-events: none;
+  animation: rotation 11s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.navbar_links_container {
+  display: flex;
+  justify-content: space-between;
+  gap: 35px;
+}
+
+.navbar_links_container a {
+  color: #497174;
+  font-size: 23px;
+  transition: 300ms;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.navbar_links_container a:hover {
+  text-decoration: underline;
+  opacity: 0.8;
+}
+/* cant go home without youu */
+.contact_button {
+  cursor: pointer;
+  padding: 8px 12px;
+  background: none;
+  border: 3px solid #497174;
+  border-radius: 5px;
+  color: #497174;
+  font-size: 21px;
+  transition: 350ms;
+}
+
+.contact_button:hover {
+  background: #497174;
+  color: #eff5f5;
+}
+
+.home_page_left_container_header_container span {
+  font-size: 108px;
+  color: #497174;
+}
+
+.home_page_left_container_header_container {
+  width: 580px;
+  transform: translateX(-9px);
+}
+
+.mikheil_logo {
+  width: 610px;
+  transform: translateX(45px);
+}
