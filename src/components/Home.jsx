@@ -1,6 +1,7 @@
 import MikheilLogo from "../IMG/mikheilgroup.png";
 import ReactLogo from "../IMG/reactlogo.png";
 import Arrow from "../IMG/arrow.png";
+import WebDevLogo from '../IMG/webdevlogo.png'
 import {useNavigate} from "react-router-dom";
 
 const Home = () => {
@@ -10,6 +11,7 @@ const Home = () => {
       <section className="home_page_left_container">
         <div className="home_page_left_container_header_container">
           <span>Hi! I Am Mikheil</span>
+          <img src={WebDevLogo} alt="webdevlogo" className="webdev_logo" />
         </div>
         <div className="home_page_left_container_main_container">
           <span>

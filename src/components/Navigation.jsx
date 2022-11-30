@@ -11,9 +11,9 @@ const Navigation = () => {
       <Nav>
         <img onClick={() => navigate("/portfolio")} src={Logo} className="nav_logo" />
         <div className="navbar_links_container">
-          <Link to={"/portfolio"}>Home</Link>
-          <Link to={"/portfolio/about"}>About</Link>
-          <Link to={"/portfolio/projects"}>Projects</Link>
+          <Link className={`navbar_link`} to={'/portfolio'}>Home</Link>
+          <Link className={`navbar_link`} to={"/portfolio/about"}>About</Link>
+          <Link className={`navbar_link`} to={"/portfolio/projects"}>Projects</Link>
         </div>
         <div>
           <button className="contact_button">Contanct</button>
