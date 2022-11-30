@@ -9,9 +9,9 @@ const Navigation = () => {
   return (
     <header>
       <Nav>
-        <img onClick={() => navigate("/")} src={Logo} className="nav_logo" />
+        <img onClick={() => navigate("/portfolio")} src={Logo} className="nav_logo" />
         <div className="navbar_links_container">
-          <Link to={"/"}>Home</Link>
+          <Link to={"/portfolio"}>Home</Link>
           <Link to={"/about"}>About</Link>
           <Link to={"/projects"}>Projects</Link>
         </div>
