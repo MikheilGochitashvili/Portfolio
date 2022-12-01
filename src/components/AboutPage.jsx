@@ -1,5 +1,4 @@
 import data from "../fetch.json";
-import FutureInYourHand from "../IMG/futureinyourhand.png";
 import Rectangle from "./svg/rectangle";
 
 const AboutPage = () => {
@@ -23,9 +22,6 @@ const AboutPage = () => {
         })}
       </section>
       <section className="about_page_right_section">
-        <div className="hands_wrap">
-          <img src={FutureInYourHand} alt="handsYour" className="future_png" />
-        </div>
         <div>
           <button>Home</button>
           <button>Projects</button>
