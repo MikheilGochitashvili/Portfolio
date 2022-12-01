@@ -14,7 +14,6 @@ body {
 
 header {
   width: 100%;
-  position: fixed;
 }
 
 .nav_logo {
@@ -23,7 +22,7 @@ header {
 }
 
 .home_page_container {
-  padding-top: 150px;
+  padding-top: 90px;
   width: 1340px;
   margin: 0 auto;
   display: flex;
@@ -76,6 +75,7 @@ header {
 
 .projects_button {
   color: #497174;
+  transition: 300ms;
   background: none;
 }
 
@@ -85,8 +85,8 @@ header {
 }
 
 .arrow {
-  margin-left: 6px;
-  margin-bottom: 7px;
+  margin-left: 9px;
+  margin-bottom: 8px;
   position: absolute;
 }
 
@@ -103,7 +103,7 @@ header {
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(360deg);
+    transform: rotate(-360deg);
   }
 }
 
@@ -190,4 +190,88 @@ header {
 .mikheil_logo {
   width: 610px;
   transform: translateX(45px);
+}
+
+.about_page_container
+{
+  width: 1340px;
+  margin: 0 auto;
+  padding-top: 90px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.rectangle
+{
+  animation: rotation 15s infinite linear;
+}
+
+.about_container
+{
+  display: flex;
+  flex-direction: row;
+  gap: 22px;
+}
+.about_content_container
+{
+  padding-top: 11px;
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+
+.about_description_container
+{
+  width: 400px;
+}
+
+.about_page_left_section
+{
+  display: flex;
+  flex-direction: column;
+  gap: 38px;
+}
+
+.about_title
+{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 31px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.035em;
+  color: #224547;
+}
+
+.about_description
+{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.035em;
+  color: #497174;
+}
+
+.future_png
+{
+  width: 500px;
+  animation: bounce 8s infinite linear;
+  pointer-events: none;
+}
+
+.hands_wrap
+{
+  transform: translateY(-66px);
+}
+
+.about_page_right_section
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

@@ -1,5 +1,4 @@
 import Nav from "./style/Navigation.styled";
-import Span from "./style/CustomSpan";
 import {Link} from "react-router-dom";
 import Logo from "../IMG/logo.png";
 import {useNavigate} from "react-router-dom";

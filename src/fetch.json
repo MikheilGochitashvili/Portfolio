@@ -1,0 +1,30 @@
+[
+    {
+        "about": [
+            {
+                "title": "About Myself",
+                "description": "Hello my name is Mikheil Gochitashvili I was born and rised in Tbilisi , Georgia.",
+                "SpanColor": "#10A19D",
+                "RectangleColor": "#10A19D"
+            },
+            {
+                "title": "Education",
+                "description": "Academy of Informational Technologies Step Located in Tbilisi , Georgia",
+                "SpanColor": "#540375",
+                "RectangleColor": "#540375"
+            },
+            {
+                "title": "My Proffesion",
+                "description": "My proffesion is web development for already 14 months and counting",
+                "SpanColor": "#FF7000",
+                "RectangleColor": "#FF7000"
+            },
+            {
+                "title": "Hobbies",
+                "description": "Problem solving, Football & Basketball, Traveling.",
+                "SpanColor": "#FFBF00",
+                "RectangleColor": "#FFBF00"
+            }
+        ]
+    }
+]

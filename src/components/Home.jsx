@@ -1,11 +1,14 @@
 import MikheilLogo from "../IMG/mikheilgroup.png";
 import ReactLogo from "../IMG/reactlogo.png";
-import Arrow from "../IMG/arrow.png";
+import Arrow from "./svg/arrow";
 import WebDevLogo from '../IMG/webdevlogo.png'
 import {useNavigate} from "react-router-dom";
+import { useState } from "react";
 
 const Home = () => {
   const navigate = useNavigate();
+  const [over, setOver] = useState(false)
+
   return (
     <div className="home_page_container">
       <section className="home_page_left_container">
@@ -25,10 +28,12 @@ const Home = () => {
             About
           </button>
           <button
+            onMouseOut={() => setOver(false)}
+            onMouseOver={() => setOver(true)}
             onClick={() => navigate("/portfolio/projects")}
             className="projects_button"
           >
-            Projects<img className="arrow" src={Arrow} alt="img"></img>
+            Projects <Arrow className="arrow" color={over ? '#EFF5F5' : '#497174'}/>
           </button>
         </div>
       </section>
