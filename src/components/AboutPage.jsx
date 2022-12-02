@@ -35,7 +35,7 @@ const AboutPage = ({setOver, navigate, over, value}) => {
             )
           })}
         </section>
-        <section className="about_page_right_section">sad</section>
+        <section className="about_page_right_section"></section>
       </div>
       <section className="about_page_footer">
         <div>
