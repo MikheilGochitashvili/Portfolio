@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.e581b797.css",
-    "main.js": "/portfolio/static/js/main.07efbd15.js",
+    "main.css": "/portfolio/static/css/main.47365022.css",
+    "main.js": "/portfolio/static/js/main.27cc7e52.js",
     "static/media/mikheilgroup.png": "/portfolio/static/media/mikheilgroup.593cfaa17a9cd4483629.png",
     "static/media/reactlogo.png": "/portfolio/static/media/reactlogo.e2e0247f9ea667a6f2e5.png",
     "index.html": "/portfolio/index.html",
-    "main.e581b797.css.map": "/portfolio/static/css/main.e581b797.css.map",
-    "main.07efbd15.js.map": "/portfolio/static/js/main.07efbd15.js.map"
+    "main.47365022.css.map": "/portfolio/static/css/main.47365022.css.map",
+    "main.27cc7e52.js.map": "/portfolio/static/js/main.27cc7e52.js.map"
   },
   "entrypoints": [
-    "static/css/main.e581b797.css",
-    "static/js/main.07efbd15.js"
+    "static/css/main.47365022.css",
+    "static/js/main.27cc7e52.js"
   ]
 }
