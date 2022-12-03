@@ -270,7 +270,7 @@ header {
 .about_title
 {
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 30px;
   line-height: 31px;
   display: flex;
@@ -307,7 +307,8 @@ header {
 {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  padding-right: 100px;
+  gap: 15px;
 }
 
 .inner_text
@@ -340,5 +341,83 @@ header {
 
 .home_btn:hover
 {
-  background: #224547;
+  background: #497174;
+  scale: 1.03;
+}
+
+.about_page_right_section_header_container
+{
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.about_page_right_section_header_container span
+{
+  color: #51B6FF;
+  font-weight: 400;
+  font-size: 27px;
+}
+
+.github_profile
+{
+  width: 153px;
+  height: 62px;
+  background: #504F4F;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: 300ms;
+  
+  gap: 7px;
+}
+
+.github_profile span
+{
+  font-size: 21px;
+  color: #fff;
+}
+
+.github_profile:hover
+{
+  background: none;
+  scale: 1.05;
+  border: 2px solid #504F4F;
+}
+
+.linkedin_profile
+{
+  width: 153px;
+  height: 62px;
+  background: #0077BB;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: 300ms;
+  
+  gap: 7px;
+}
+
+.linkedin_profile span
+{
+  font-size: 19px;
+  color: #fff;
+}
+
+.linkedin_profile:hover
+{
+  background: none;
+  scale: 1.05;
+  border: 2px solid #0077BB;
+}
+
+.profile_container
+{
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
 }
