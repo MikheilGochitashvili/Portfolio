@@ -7,3 +7,5 @@
 * Styled Components
 * CSS3
 * JavaScript
+
+### Also representing the projects, personal information , hobbies , socials and contact information.
