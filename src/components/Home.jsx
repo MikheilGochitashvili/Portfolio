@@ -15,9 +15,7 @@ const Home = ({setOver, navigate, over, value}) => {
         </div>
         <div className="home_page_left_container_main_container">
           <span>
-            Developing and designing the websites for over{" "}
-            <span style={{color: "#2A494B"}}> 14 months </span> as a web
-            developer
+            Hi, my name is<span style={{color: "#2A494B"}}> Mikheil Gochitashvili </span>  and I am <span style={{color: "#2A494B"}}> 19 years old </span>. I am currently studying computer science at <span style={{color: "#2A494B"}}>IT Step Academy</span> and I am passionate about learning new technologies and building software applications.
           </span>
         </div>
         <div className="home_page_buttons_container">
