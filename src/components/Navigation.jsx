@@ -7,7 +7,7 @@ const Navigation = () => {
   const navigate = useNavigate();
   return (
     <header>
-      <Nav>
+      <Nav id="navigation_bar">
         <img onClick={() => navigate("/portfolio")} src={Logo} className="nav_logo" />
         <div className="navbar_links_container">
           <Link className={`navbar_link`} to={'/portfolio'}>Home</Link>

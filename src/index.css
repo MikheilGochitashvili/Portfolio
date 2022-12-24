@@ -51,6 +51,14 @@ header {
 
 .home_page_buttons_container {
   margin-top: 75.99px;
+  display: flex;
+  gap: 8px;
+}
+
+.about_page_footer div
+{
+  display: flex;
+  gap: 7px;
 }
 
 .home_page_buttons_container button {
@@ -65,11 +73,15 @@ header {
 .about_button {
   color: #eff5f5;
   background: #eb6440;
+  box-shadow: rgb(235 100 64 / 74%) 0px 0px 29px 0px;
+  border-radius: 26px;
 }
 
 .about_button:hover {
   background: #497174;
-  border-radius: 26px;
+  border-radius: 0px;
+  scale: 1.05;
+  box-shadow: rgb(51 112 107 / 74%) 0px 0px 29px 0px;
 }
 
 .about_button:active {
@@ -320,12 +332,13 @@ header {
     border-radius: 17px;
     transition: 300ms;
     /* border: 2px solid #84c539; */
-    box-shadow: rgb(73 113 116 / 46%) 0px 7px 29px 0px;
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
 }
 
 .about_page_right_section:hover
 {
-  scale: 1.03;
+  box-shadow: rgba(73, 113, 116, 0.582) 0px 7px 29px 0px;
+  scale: 1.01;
 }
 
 .inner_text
@@ -350,16 +363,20 @@ header {
   height: 64.05px;
   font-size: 25px;
   border: none;
+  border-radius: 26px;
   cursor: pointer;
-  transition: 430ms;
+  transition: 550ms;
   background: #eb6440;
   color: #eff5f5;
+  box-shadow: rgb(235 100 64 / 74%) 0px 0px 29px 0px;
 }
 
 .home_btn:hover
 {
   background: #497174;
-  scale: 1.03;
+  border-radius: 0px;
+  scale: 1.05;
+  box-shadow: rgba(51, 112, 107, 0.74) 0px 0px 29px 0px;
 }
 
 .about_page_right_section_header_container
@@ -387,7 +404,7 @@ header {
   justify-content: center;
   text-decoration: none;
   transition: 300ms;
-  
+  box-shadow: rgba(89, 89, 100, 0.753) 0px 1px 29px 0px;
   gap: 7px;
 }
 
@@ -415,7 +432,7 @@ header {
   justify-content: center;
   text-decoration: none;
   transition: 300ms;
-  
+  box-shadow: rgb(7 65 190 / 64%) 0px 1px 29px 0px;
   gap: 7px;
 }
 
@@ -435,6 +452,6 @@ header {
 .profile_container
 {
   display: flex;
-  gap: 10px;
+  gap: 13px;
   flex-direction: column;
 }
