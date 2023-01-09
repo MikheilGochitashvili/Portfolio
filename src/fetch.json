@@ -14,7 +14,8 @@
                     }
                 ],
                 "SpanColor": "#10A19D",
-                "RectangleColor": "#10A19D"
+                "RectangleColor": "#10A19D",
+                "box_shadow": "box-shadow: rgb(73 113 116 / 58%) 0px 7px 29px 0px"
             },
             {
                 "title": "Education",
@@ -29,7 +30,8 @@
                     }
                 ],
                 "SpanColor": "#540375",
-                "RectangleColor": "#540375"
+                "RectangleColor": "#540375",
+                "box_shadow": "box-shadow: rgb(73 113 116 / 58%) 0px 7px 29px 0px"
             },
             {
                 "title": "Skills",
@@ -56,7 +58,8 @@
                     }
                 ],
                 "SpanColor": "#FF7000",
-                "RectangleColor": "#FF7000"
+                "RectangleColor": "#FF7000",
+                "box_shadow": "box-shadow: rgb(73 113 116 / 58%) 0px 7px 29px 0px"
             },
             {
                 "title": "Hobbies",
@@ -75,7 +78,8 @@
                     }
                 ],
                 "SpanColor": "#FFBF00",
-                "RectangleColor": "#FFBF00"
+                "RectangleColor": "#FFBF00",
+                "box_shadow": "box-shadow: rgb(73 113 116 / 58%) 0px 7px 29px 0px"
             }
         ]
     }

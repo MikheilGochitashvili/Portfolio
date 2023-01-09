@@ -18,7 +18,9 @@ const AboutPage = ({setOver, navigate, over, value}) => {
         <section className="about_page_left_section">
           {data[0].about.map((item) => {
             return (
-              <div className="about_container">
+              <div
+                className="about_container"
+              >
                 <Rectangle color={item.RectangleColor} />
                 <div className="about_content_container">
                   <span style={{color: item.SpanColor}} className="about_title">
