@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.82f0df25.css",
-    "main.js": "/portfolio/static/js/main.1f5c3b16.js",
+    "main.css": "/portfolio/static/css/main.ead3e4db.css",
+    "main.js": "/portfolio/static/js/main.ee7abdd7.js",
     "static/media/mikheilgroup.png": "/portfolio/static/media/mikheilgroup.593cfaa17a9cd4483629.png",
+    "static/media/where_in_world.png": "/portfolio/static/media/where_in_world.8204d303f5645b8ca22f.png",
     "static/media/reactlogo.png": "/portfolio/static/media/reactlogo.e2e0247f9ea667a6f2e5.png",
     "index.html": "/portfolio/index.html",
-    "main.82f0df25.css.map": "/portfolio/static/css/main.82f0df25.css.map",
-    "main.1f5c3b16.js.map": "/portfolio/static/js/main.1f5c3b16.js.map"
+    "main.ead3e4db.css.map": "/portfolio/static/css/main.ead3e4db.css.map",
+    "main.ee7abdd7.js.map": "/portfolio/static/js/main.ee7abdd7.js.map"
   },
   "entrypoints": [
-    "static/css/main.82f0df25.css",
-    "static/js/main.1f5c3b16.js"
+    "static/css/main.ead3e4db.css",
+    "static/js/main.ee7abdd7.js"
   ]
 }
