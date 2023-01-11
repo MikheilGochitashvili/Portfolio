@@ -86,7 +86,7 @@
             {
                 "title": "Interactive Rating Card Component",
                 "tech": "Javascript [ES6], CSS5, HTML5",
-                "img": "/portfolio/static/media/interactive_card.d0be10812a1b7821b77d.png",
+                "img": "/portfolio/static/media/interactive.d0be10812a1b7821b77d.png",
                 "description": "This is a solution to the Interactive rating component challenge on Frontend Mentor which involves handling user interaction and updating the DOM.",
                 "liveURL": "https://mikheilgochitashvili.github.io/interactive-rating-component/",
                 "repository": "https://github.com/MikheilGochitashvili/interactive-rating-component"

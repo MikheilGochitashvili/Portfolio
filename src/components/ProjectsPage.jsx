@@ -1,5 +1,5 @@
 import data from "../fetch.json";
-import interactive from "../IMG/where_in_world.png";
+import interactive from "../IMG/interactive.png";
 import GithubLogo from "../components/svg/githublogo.js";
 
 const ProjectPage = () => {
@@ -11,7 +11,7 @@ const ProjectPage = () => {
         return (
           <div className="individual_project">
             <div className="project_img_container">
-              <img className="project_img" src={item.img} alt="image" />
+              <img className="project_img" src={item.img} alt="aiemex" />
             </div>
             <div className="project_description">
               <div>
