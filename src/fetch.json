@@ -86,7 +86,7 @@
             {
                 "title": "Interactive Rating Card Component",
                 "tech": "Javascript [ES6], CSS5, HTML5",
-                "img": "/portfolio/static/media/interactive.d0be10812a1b7821b77d.png",
+                "img": "https:/gdurl.com/5YQr",
                 "description": "This is a solution to the Interactive rating component challenge on Frontend Mentor which involves handling user interaction and updating the DOM.",
                 "liveURL": "https://mikheilgochitashvili.github.io/interactive-rating-component/",
                 "repository": "https://github.com/MikheilGochitashvili/interactive-rating-component"
@@ -94,7 +94,7 @@
             {
                 "title": "Where in the World?",
                 "tech": "React, Javascript [ES6], CSS5, HTML5, Styled Components",
-                "img": "/portfolio/static/media/where_in_world.8204d303f5645b8ca22f.png",
+                "img": "https:/gdurl.com/FGYG",
                 "description": "This is a solution to the REST Countries API with color theme switcher challenge on Frontend Mentor. Frontend Mentor challenges help you improve your coding skills by building realistic projects.",
                 "liveURL": "https://mikheilgochitashvili.github.io/Countries/",
                 "repository": "https://github.com/MikheilGochitashvili/Countries"

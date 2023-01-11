@@ -1,12 +1,10 @@
 import data from "../fetch.json";
-import interactive from "../IMG/interactive.png";
 import GithubLogo from "../components/svg/githublogo.js";
 
 const ProjectPage = () => {
-  console.log(data);
-
   return (
     <div className="project_page_container">
+    <img src="../IMG/logo.png" alt="" />
       {data[0].projects.map((item) => {
         return (
           <div className="individual_project">
