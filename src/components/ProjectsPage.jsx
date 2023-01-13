@@ -36,7 +36,6 @@ const ProjectPage = () => {
                   target="_blank"
                 >
                   Repository
-                  <GithubLogo color="white" />
                 </a>
               </div>
             </div>
