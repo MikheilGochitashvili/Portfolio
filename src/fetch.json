@@ -98,6 +98,14 @@
                 "description": "This is a solution to the REST Countries API with color theme switcher challenge on Frontend Mentor. Frontend Mentor challenges help you improve your coding skills by building realistic projects.",
                 "liveURL": "https://mikheilgochitashvili.github.io/Countries/",
                 "repository": "https://github.com/MikheilGochitashvili/Countries"
+            },
+            {
+                "title": "Advice Generator",
+                "tech": "Javascript [ES6], CSS5, HTML5",
+                "img": "images/advice.png",
+                "description": "Advice generator app built javascript. the information is fetched by javascript from the API",
+                "liveURL": "https://mikheilgochitashvili.github.io/advice-generator/",
+                "repository": "https://github.com/MikheilGochitashvili/advice-generator"
             }
         ]
     }
