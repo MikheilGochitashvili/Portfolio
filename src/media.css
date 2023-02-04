@@ -3,4 +3,34 @@
     {
         width: 900px;
     }
+    #home_page_container
+    {
+        padding-top: 16px;
+        width: 1000px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    #home_page_left_container_main_container
+    {
+        margin-top: 5px;
+        width: 616px;
+        text-align: center;
+    }
+    #home_page_left_container_header_container
+    {
+        width: 580px;
+        text-align: center;
+        transform: translateX(-9px);
+    }
+    #home_page_buttons_container
+    {
+        margin-top: 29.989999999999995px;
+        display: flex;
+        justify-content: center;
+        gap: 8px;
+        margin-bottom: 16px;
+    }
 }
